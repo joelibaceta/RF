@@ -189,7 +189,7 @@ location_var = tk.StringVar()
 location_var.set("Lima")
 location_label = tk.Label(step1_frame, text="Ubicación:", font=("Helvetica", 12))
 location_label.pack(pady=5)
-location_options = ["Lima", "Playa", "Chosica"]
+location_options = ["Lima", "Playa", "Campo","Restaurant"]
 location_menu = tk.OptionMenu(step1_frame, location_var, *location_options)
 location_menu.config(font=("Helvetica", 12))
 location_menu.pack(pady=5)
