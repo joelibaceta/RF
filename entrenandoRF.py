@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-dataPath = 'C:\g0\VS\Data' #Cambia a la ruta donde hayas almacenado Data
+dataPath = 'data' #Cambia a la ruta donde hayas almacenado Data
 peopleList = os.listdir(dataPath)
 print('Lista de personas: ', peopleList)
 
